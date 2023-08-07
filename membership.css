@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500;700&display=swap');
+
+
+/******* 칼라변수 *****/
+:root {
+  --brand_main_color:#4876ef;
+  --brand_sub_color:#8491a7;
+}
+
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.frm {
+  margin: 50px auto;
+  max-width: 320px;
+  border: 1px solid #dddddd;
+  padding: 25px 25px;
+  border-radius: 4px;
+}
+.tit_join_member {
+  color: #373f73;
+  font-size: 24px;
+  line-height: 34px;
+  letter-spacing: -1.5px;
+}
+
+.subTitle {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 30px;
+}
+.item {
+  margin-bottom: 14px;
+}
+.Typo {
+  width: 100%;
+  padding: 18px 0 18px 5px;
+  border-radius: 4px;
+  border:1px solid #ccc
+}
+input:focus {
+  outline: 1px solid var(--brand_sub_color);
+}
+.tit_btn_wrap {
+  display: grid;
+  grid-template-columns: 220px 80px;
+  grid-gap: 26px;
+  margin-bottom: 10px;
+}
+.tit_btn_wrap_hidden {
+  display: none;
+}
+.BtnType {
+  border: none;
+  background: var(--brand_main_color);
+  color:#fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.BtnType:hover {
+  background: #000;
+}
+
+.inp_join {
+  width: 100%;
+  padding: 18px 0 18px 5px;
+  margin-top: 20px;
+}
